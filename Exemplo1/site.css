@@ -1,0 +1,21 @@
+h1{
+	font-size: 60px;
+	background-color: #851944;
+	/* color: rgb(250,255,250); os dois sao iguais*/
+	color: #FAFFFA;
+	text-align: center;
+	font-family: "Arial", sans-serif;
+
+}
+h2{
+	font-size: 40px;
+	font-family: "Arial", sans-serif; /* o navegador analisa a fonte da esuqerda para direita, a sans-serif eh tipo de fonte*/
+}
+body{
+
+	background-color: #F2FFFC;
+}
+p{
+	text-align: justify;
+	font-family: "Times New Roman";
+}
