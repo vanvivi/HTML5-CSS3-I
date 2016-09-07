@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Biografia - João da Silva</title>
+		<title>Biografia - Vanessa Watanabe</title>
 		<meta charset="utf-8">
 		<link rel="icon" href="favicon.png">
 		<link rel="stylesheet" href="site.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
 
 	</head>
 	<body>
-		<h1>Sobre mim</h1>
+		<main><!-- essa tag main agrega semantica mas nO MUDA NADA no site ou codigo, tags semanticas sao utlizadas pelos sites como google, ou seja serve para os sites de busca identificar o conteudo dessa tag. Semantica=accessibilidade+usabilidade-->
+			<h1>Sobre mim</h1>
 
-		<p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p>
+			<p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p>
 
-		<p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de código.</p>
+			<p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de código.</p>
 
-		<h2>Como trabalho</h2>
+			<h2>Como trabalho</h2>
+				<blockquote> <!-- tag usada para citacoes no site -->
+					<p> Vanessa e a melhor funcionaria que ja tivemos</p>
+					<cite> Alexandre W</cite>
+				</blockquote>
 
-		<p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente interativo, baseado em feedback contínuo. <strong>Não trabalho com escopo fechado</strong>: o cliente é que decide quando o produto está pronto.</p>
+			<p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente interativo, baseado em feedback contínuo. <strong>Não trabalho com escopo fechado</strong>: o cliente é que decide quando o produto está pronto.</p>
 
-		<p>Também não trabalho com prazos fechados: <strong>qualidade é importante demais para ser sacrificada</strong>.</p>
+			<p>Também não trabalho com prazos fechados: <strong>qualidade é importante demais para ser sacrificada</strong>.</p>
 
-		<h2>Experiência</h2>
+			<h2>Experiência</h2>
+				<blockquote> <!-- tag usada para citacoes no site -->
+					<p> Vanessa tem experiencia com projetos e business analyst</p>
+					<cite> Alexandre W</cite>
+				</blockquote>
 
-		<p>Já desenvolvi projetos para grandes empresas como BMW, UOL e IBM. Neles, o foco principal era entregar uma experiência imersiva e impactante para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
+			<p>Já desenvolvi projetos para grandes empresas como <a href="http:www.bmw.com.b">BMW</a>, UOL e IBM. Neles, o foco principal era entregar uma experiência imersiva e impactante para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
 
-		<p>Também já fui contratado para transformar grandes portais, como Terra e G1, em páginas responsivas. Fui responsável por renovar o layout, reorganizar o conteúdo e re-escrever o código de forma mais reaproveitável.</p>
+			<p>Também já fui contratado para transformar grandes portais, como Terra e G1, em páginas responsivas. Fui responsável por renovar o layout, reorganizar o conteúdo e re-escrever o código de forma mais reaproveitável.</p>
 
-		<h2>Comunidade</h2>
+			<h2>Comunidade</h2>
+		</main>
 
-		<p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho um blog.</p>
+		<p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho um <a href="blog.html">blog.</a></p> <img src="eu.jpg" alt="foto de joao"> <!-- alt serve para informar pessoas que nao enxergam que a imagem eh a foto de alguem atraves da descricao -->
+		<aside>
+			<nav> <!--tag nav agrega semantica na pagina ela eh do html 5, mas nao muda a aparencia do site. A TAG div serve somente para estruturar mas nao para dar semantica. Tag ASIDE serve para dar semantica e informa o navegador que tem uma barra lateral mas tem que criar os estilos-->
+				<h1>Vanessa Watanabe</h1>
+				<ul> 
+					<li><a href="s"> Home </a> </li>
+					<li><a href="http://vanessawatanabe.weebly.com/"> Portfolio </a> </li>
+					<li><a href="bio.html">Sobre mim</a></li>
+	            	<li><a href="blog.html">Blog</a></li>
+	            	<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<footer>
+			&copy; Vanessa Watanabe 2016 <!-- o & ja coloca o simbolo de coyright na pagina-->
+		</footer>
+			<h2>O essencial de design responsivo</h2>
+			<p>Design responsivo tem ganho cada vez mais atenção...</p>
+			<a href="#">Leia mais</a>
+			<p><time datetime="2014-07-13">13 de julho de 2014</time></p>
 	</body>
 </html>
