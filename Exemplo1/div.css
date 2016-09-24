@@ -1,0 +1,64 @@
+/*div { desenhando duas barras paralelas
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    width: 5px;
+    height: 30px;
+}
+*/
+/*div { desenhando um triangulo, a base maior eh a que tem cor
+    border-bottom: 30px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}*/
+/*div {
+O código para a gravata borboleta deve ficar parecido com:
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;
+}*/
+/*
+div {O código para o triângulo reto deve ficar parecido com:
+
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+*/ 
+/* CORACAO - MARGIN EH O ELEMENTO QUE CONTROLA O ESPACO ENTRE OS ELEMENTOS*/
+.heart-shape{
+	position: relative;
+	margin: 0 auto; /* Faz com que tenha espaco no topo e embaixo com espaco e dos lados fica automatico*/
+	width: 200px;
+	height: 200px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: red;
+}
+.heart-shape:before,
+.heart-shape:after{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	content: '';
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	background-color: red;
+}
+.heart-shape:before{
+	bottom: 0px;
+	left: -100px;
+}
+.heart-shape:after{
+	top: -100px;
+	right: 0px;
+}
