@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
 	</head>
+	<!--<header class="pagina-inicial cabecalho-principal"> -->
 	<body>
 		<main>
 			<h1>Blog</h1>
@@ -18,8 +19,9 @@
 					<time datetime="2014-07-01">01 de julho de 2014</time>
 
 					<p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
-
-					<a href="#">Leia mais</a>
+					<div class="leia-center">
+						<a href="#">Leia mais</a>
+					</div>
 					<footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
 				</article>
 
@@ -28,8 +30,9 @@
 					<time datetime="2014-06-15">15 de junho de 2014</time>
 
 					<p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
-
-					<a href="#">Leia mais</a>
+					<div class="leia-center">
+						<a href="#">Leia mais</a>
+					</div>
 					<footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
 				</article>
 
@@ -38,17 +41,20 @@
 					<time datetime="2014-05-28">28 de maio de 2014</time>
 
 					<p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-					
-					<a href="#">Leia mais</a>
+					<div class="leia-center">
+						<a href="#">Leia mais</a>
+					</div>
 					<footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
 				</article>
 			</div>
 		</main>
-		<img src="eu.jpg" alt="Foto de João da Silva">
-		<aside>
+		<div class="test-center">
+			<img src="eu.jpg" alt="Foto de João da Silva">
+		</div>
+		<aside class="navegacao-site">
 			<h1>João da Silva</h1>
 			<nav>
-				<ul>
+				<ul class="icones-sociais">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="bio.html">Sobre mim</a></li>
@@ -56,9 +62,29 @@
 					<li><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
+			<nav>
+				<ul class="icones-sociais"> <!--<ul id="icones-sociais">  id so pode ser usado uma vez por isso o melhor eh usar classes para serem usadas varias vezes no codigo-->
+    				<li><a href="https://github.com/joaodasilva">
+    				<img src="github.png" alt="Github"></a></li>
+    				<li><a href="https://twitter.com/joaodasilva">
+            		<img src="twitter.png" alt="Twitter"></a></li>
+    				<li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+            		<img src="linkedin.png" alt="LinkedIn"></a></li>
+				</ul>
+			</nav>
 		</aside>
-		<footer>
+		<footer class="rodape-pagina">
 			&copy; João da Silva 2014
+			<nav>
+				<ul class="icones-sociais social-rodape"> 
+    				<li><a href="https://github.com/joaodasilva">
+    				<img src="github.png" alt="Github"></a></li>
+    				<li><a href="https://twitter.com/joaodasilva">
+            		<img src="twitter.png" alt="Twitter"></a></li>
+    				<li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+            		<img src="linkedin.png" alt="LinkedIn"></a></li>
+				</ul>
+			</nav>
 		</footer>
 	</body>
 </html>

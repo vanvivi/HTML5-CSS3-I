@@ -1,3 +1,13 @@
+
+.pagina-inicial {
+    font-size: 60px;
+}
+
+.cabecalho-principal {
+    color: white;
+    background-color: purple;
+}
+
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
@@ -16,6 +26,7 @@ main h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -72,7 +83,18 @@ aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-
+.icones-sociais li{ /* o cerquilha pega o id o ponto pega a classe*. O ID eh mais importante do que a classe*/
+	display: inline-block; 
+}
+.social-rodape{
+	margin: 60px;
+}
+.rodape-pagina{
+	background-color: #000;
+  	color: #F2FFFC;
+    padding: 20px;
+}
+/* O valor inline-block para a propriedade display surgiu para podermos definir altura e largura em elementos inline. Fora isso, ambos os elementos podem ter um padding definido, ambos ficam em linha e ambos são suportados por todos os navegadores modernos.*/
 strong {
 	font-weight: bold;
 }
@@ -84,3 +106,43 @@ em {
 h2 {
 	font-size: 30px;
 }
+.test-center{
+text-align: center;
+}
+article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-center{
+	font-size: 24px;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	background-color: #CCC;
+}
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px; para remover o texto.
+} 
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+						 

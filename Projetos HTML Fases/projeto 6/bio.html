@@ -45,11 +45,13 @@
 				<p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei <a href="portfolio.html">diversas palestras</a> e mantenho um <a href="blog.html">blog</a>.</p>
 			</div>
 		</main>
-		<img src="eu.jpg" alt="Foto de João da Silva">
+		<div class="test-center">
+			<img src="eu.jpg" alt="Foto de João da Silva">
+		</div>
 		<aside>
 			<h1>João da Silva</h1>
 			<nav>
-				<ul>
+				<ul class="icones-sociais">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="bio.html">Sobre mim</a></li>
@@ -57,9 +59,40 @@
 					<li><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
+			<nav>
+				<ul class="icones-sociais"> <!--<ul id="icones-sociais">  id so pode ser usado uma vez por isso o melhor eh usar classes para serem usadas varias vezes no codigo-->
+    				<!-- 
+    				<li><a href="https://github.com/joaodasilva">
+    				<img src="github.png" alt="Github"></a></li>
+    				ao inves de declarar as imagen no html conforme exemplo acima, iremos criar classes e definir as imagens no CSS para dar semantica e para browser ler as imagens}
+    				<li><a href="https://twitter.com/joaodasilva">
+            		<img src="twitter.png" alt="Twitter"></a></li>
+    				<li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+            		<img src="linkedin.png" alt="LinkedIn"></a></li>-->
+            		<li>
+        				<a class="github" href="https://github.com/joaodasilva"> Github </a>
+    				</li>
+    				<li>
+        				<a class="twitter" href="https://twitter.com/joaodasilva"> Twitter</a>
+    				</li>
+    				<li>
+        				<a class="linkedin" href="https://br.linkedin.com/pub/joão-da-silva/32/4/508"> LinkedIn </a>
+    				</li>
+				</ul>
+			</nav>
 		</aside>
 		<footer>
 			&copy; João da Silva 2014
+			<nav>
+				<ul class="icones-sociais social-rodape"> 
+    				<li><a href="https://github.com/joaodasilva">
+    				<img src="github.png" alt="Github"></a></li>
+    				<li><a href="https://twitter.com/joaodasilva">
+            		<img src="twitter.png" alt="Twitter"></a></li>
+    				<li><a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+            		<img src="linkedin.png" alt="LinkedIn"></a></li>
+				</ul>
+			</nav>
 		</footer>
 	</body>
 </html>
